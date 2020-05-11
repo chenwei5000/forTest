@@ -246,7 +246,28 @@ export default {
       this.total = this.proDataAll.length
     },
     onSubmit() {
-      console.log('触发了提交事件')
+      // 根据 sForm 内部的查询数据，对数组进行遍历
+      console.log(this.sForm)
+      this.proDataCur = this.proDataAll
+      if (this.sForm.code.trim()) {
+        this.proDataCur = this.proDataAll.filter(item =>
+          item.code.includes(this.sForm.code)
+        )
+      }
+      if (this.sForm.originBase.trim()) {
+        this.proDataCur = this.proDataCur.filter(
+          item => item.originBase === this.sForm.originBase
+        )
+      }
+      if (this.sForm.sTime.length === 2) {
+        this.proDataCur = this.proDataCur.filter(
+          item =>
+            item.cTime > +new Date(this.sForm.sTime[0]) &&
+            item.cTime < +new Date(this.sForm.sTime[1])
+        )
+      }
+      this.total = this.proDataCur.length
+      this.proDataCur = this.proDataCur.filter((item, i) => i < 5)
     },
     handleSizeChange(num) {
       this.pageSize = num
