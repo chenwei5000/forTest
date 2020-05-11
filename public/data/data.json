@@ -1,0 +1,98 @@
+[
+  {
+    "id": 100,
+    "code": "ST202010102211005",
+    "originBase": "上海祁邦",
+    "state": true,
+    "cTime": 1514768458000,
+    "cMoney": 53453.63
+  },
+  {
+    "id": 101,
+    "code": "ST202010102211005",
+    "originBase": "武汉祁邦",
+    "state": true,
+    "cTime": 1514891434600,
+    "cMoney": 33273.54
+  },
+  {
+    "id": 102,
+    "code": "ST202010102211005",
+    "originBase": "杭州祁邦",
+    "state": true,
+    "cTime": 1514111458000,
+    "cMoney": 6654.03
+  },
+  {
+    "id": 103,
+    "code": "ST202010102211005",
+    "originBase": "阿里企购",
+    "state": true,
+    "cTime": 1514891458000,
+    "cMoney": 33273.54
+  },
+  {
+    "id": 104,
+    "code": "ST202010102211005",
+    "originBase": "当当仓库邦",
+    "state": true,
+    "cTime": 1514891423400,
+    "cMoney": 34234.23
+  },
+  {
+    "id": 105,
+    "code": "ST202010102211005",
+    "originBase": "人人物流",
+    "state": true,
+    "cTime": 1514891458000,
+    "cMoney": 13423423.0
+  },
+  {
+    "id": 106,
+    "code": "ST202010102211005",
+    "originBase": "曹县艾伦",
+    "state": false,
+    "cTime": 1514891458000,
+    "cMoney": 334.15
+  },
+  {
+    "id": 107,
+    "code": "ST202010102211005",
+    "originBase": "曹县艾伦",
+    "state": true,
+    "cTime": 1514591458000,
+    "cMoney": 634332.0
+  },
+  {
+    "id": 108,
+    "code": "ST202010102211005",
+    "originBase": "诸暨世宏",
+    "state": true,
+    "cTime": 1514891458000,
+    "cMoney": 112446.21
+  },
+  {
+    "id": 109,
+    "code": "ST202010102211005",
+    "originBase": "诸暨世宏",
+    "state": false,
+    "cTime": 1545891458000,
+    "cMoney": 4422.0
+  },
+  {
+    "id": 110,
+    "code": "ST202010102211005",
+    "originBase": "DEiijhg",
+    "state": true,
+    "cTime": 1513991458000,
+    "cMoney": 224677.0
+  },
+  {
+    "id": 111,
+    "code": "ST202010102211005",
+    "originBase": "hebjkaeb",
+    "state": false,
+    "cTime": 1514122458000,
+    "cMoney": 873273.17
+  }
+]
