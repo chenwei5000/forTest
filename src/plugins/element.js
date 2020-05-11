@@ -15,7 +15,10 @@ import {
   Table,
   TableColumn,
   Tag,
-  Pagination
+  Pagination,
+  Dialog,
+  Message,
+  MessageBox
 } from 'element-ui'
 
 Vue.use(Container)
@@ -34,3 +37,7 @@ Vue.use(Container)
   .use(TableColumn)
   .use(Tag)
   .use(Pagination)
+  .use(Dialog)
+
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm

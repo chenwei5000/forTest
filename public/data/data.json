@@ -3,9 +3,9 @@
     "id": 100,
     "code": "ST202010102211005",
     "originBase": "上海祁邦",
-    "state": true,
+    "state": false,
     "cTime": 1514768458000,
-    "cMoney": 53453.63
+    "cMoney": 5223453.63
   },
   {
     "id": 101,
@@ -13,7 +13,7 @@
     "originBase": "武汉祁邦",
     "state": true,
     "cTime": 1514891434600,
-    "cMoney": 33273.54
+    "cMoney": 331273.54
   },
   {
     "id": 102,
@@ -29,7 +29,7 @@
     "originBase": "阿里企购",
     "state": true,
     "cTime": 1514891458000,
-    "cMoney": 33273.54
+    "cMoney": 332273.54
   },
   {
     "id": 104,
